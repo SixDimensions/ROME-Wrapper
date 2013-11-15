@@ -1,5 +1,11 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.sonatype.oss</groupId>
+		<artifactId>oss-parent</artifactId>
+		<version>7</version>
+	</parent>
 
 	<groupId>com.sixdimensions.commons.osgi.wrapper</groupId>
 	<artifactId>rome</artifactId>
@@ -27,11 +33,11 @@
 		</license>
 	</licenses>
 	<scm>
-		<url>git@github.com:SixDimensions/cq-deploy-plugin.git</url>
-		<developerConnection>scm:git:git@github.com:SixDimensions/cq-deploy-plugin.git</developerConnection>
-		<connection>scm:git:git@github.com:SixDimensions/cq-deploy-plugin.git</connection>
-	  <tag>rome-1.0</tag>
-  </scm>
+		<url>git@github.com:SixDimensions/ROME-Wrapper.git</url>
+		<developerConnection>scm:git:git@github.com:SixDimensions/ROME-Wrapper.git</developerConnection>
+		<connection>scm:git:git@github.com:SixDimensions/ROME-Wrapper.git</connection>
+		<tag>rome-1.0</tag>
+	</scm>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
